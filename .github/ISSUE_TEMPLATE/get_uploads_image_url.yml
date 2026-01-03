@@ -13,7 +13,7 @@ body:
     id: image_urls
     attributes:
       label: Generate Image URLs
-      description: 请把图片文件拖到正面的框里面上传，上传后会生成对应的图片URL地址。每行一个URL地址。
+      description: 请把图片文件拖到下面的框里面上传，上传后会生成对应的图片URL地址。每行一个URL地址，直接复制图片URL到需要使用图片的地方即可。
       placeholder: |
         https://example.com/image1.jpg
         https://example.com/image2.jpg
@@ -23,6 +23,6 @@ body:
   - type: markdown
     attributes:
       value: |    
-        ## ⚠️ 不需要点击上面的Create按钮提交！！！
+        ## ⚠️ 不需要点击下面的Create按钮提交！！！
 
 
