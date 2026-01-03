@@ -1,5 +1,6 @@
 name: 上传图片获取URL
 description: 上传图片后会返回图片的URL地址，方便在其他地方使用。
+title: "在这里随便填点什么吧"
 labels: ["image-upload"]
 body:
   - type: markdown
@@ -16,7 +17,7 @@ body:
       placeholder: |
         https://example.com/image1.jpg
         https://example.com/image2.jpg
-        https://example.com/image3.jpg
+        https://raw.githubusercontent.com/elesos/assets/master/uml/2.png
     validations:
       required: true
 
