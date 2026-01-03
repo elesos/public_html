@@ -1,0 +1,23 @@
+name: 上传图片获取URL
+description: 上传图片后会返回图片的URL地址，方便在其他地方使用。
+labels: ["image-upload"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎨 在下面的区域上传图片    
+
+
+  - type: textarea
+    id: image_urls
+    attributes:
+      label: Generate Image URLs
+      description: 请把图片文件拖到正面的框里面上传，上传后会生成对应的图片URL地址。每行一个URL地址。
+      placeholder: |
+        https://example.com/image1.jpg
+        https://example.com/image2.jpg
+        https://example.com/image3.jpg
+    validations:
+      required: true
+
+
